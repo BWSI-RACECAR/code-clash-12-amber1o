@@ -38,6 +38,7 @@ class Solution:
                     return ary
             else: 
                 ary[i] += 1
+                return ary
 
         if ary[0] == 10:
             ary.insert(0, 1)
